@@ -11,6 +11,7 @@ setup(
     author="Alex Kovac",
     author_email="akovac@wri.org",
     description="Simple CLI to display histograms from piped gdalinfo output.",
+    long_description=long_description,
     url="https://github.com/kovaca/lil-histie",
     include_package_data=True,
     install_requires=[
