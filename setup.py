@@ -7,12 +7,11 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 setup(
     name='lil_histie',
     version='0.0.1',
-    #package_dir={'': 'src'},
     packages=find_packages(),
-    #packages=find_packages(where='src'), 
     author="Alex Kovac",
-    author_email="<email>",
-    description="Little CLI to display piped gdalinfo histograms.",
+    author_email="akovac@wri.org",
+    description="Simple CLI to display histograms from piped gdalinfo output.",
+    url="https://github.com/kovaca/lil-histie",
     include_package_data=True,
     install_requires=[
         'Click',
